@@ -44,4 +44,4 @@ Also, in order to have the app work with native elements, Cordova and Capacitor 
 See more: https://capacitor.ionicframework.com/docs/apis/
 
 
-
+n
