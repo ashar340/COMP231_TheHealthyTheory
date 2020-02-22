@@ -1,5 +1,5 @@
 {
-  "appId": "com.thehealthytheory.app",
+  "appId": "io.ionic.starter",
   "appName": "client",
   "bundledWebRuntime": false,
   "npmClient": "npm",
