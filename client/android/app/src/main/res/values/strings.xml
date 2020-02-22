@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TheHealthyTheory</string>
+    <string name="title_activity_main">TheHealthyTheory</string>
+    <string name="package_name">com.comp231.thehealthytheory</string>
+    <string name="custom_url_scheme">com.comp231.thehealthytheory</string>
+</resources>
