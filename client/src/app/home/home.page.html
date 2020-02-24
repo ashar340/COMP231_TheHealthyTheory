@@ -12,14 +12,40 @@
       <ion-title size="large">The Healthy Theory</ion-title>
     </ion-toolbar>
   </ion-header>
+
   <div class="searchBar">
   <ion-searchbar value="Top Dieticians...."></ion-searchbar>
+
   <ion-icon size="large" name="navigate"></ion-icon>
-  </div>
-  <ion-button (click)="locate()">Locate me (Test)</ion-button>
-  <ion-text class="coords">My Address : {{address.subLocality ? address.subLocality +', ' : ''}}
+  <ion-text class="coords"> {{address.subLocality ? address.subLocality +', ' : ''}}
     {{address.locality ? address.locality +', ' : ''}}{{address.administrativeArea ? address.administrativeArea +', ' : ''}}
-    {{address.postalCode ? address.postalCode +', ' : ''}}{{address.countryName ? address.countryName : ''}}
+    {{address.postalCode ? address.postalCode +', ' : ''}}
   </ion-text>
+
   <ion-button (click)="reverseGeocode()" expand="full">Get My Address</ion-button>
+  </div>
+
+  <!-- <ion-button (click)="locate()">Locate me (Test)</ion-button> -->
+  <ion-grid class = "topRecommendations">
+    
+    <ion-row class = "recommendationsRow">
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+    </ion-row>
+
+    <ion-row class = "recommendationsRow">
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  
 </ion-content>
