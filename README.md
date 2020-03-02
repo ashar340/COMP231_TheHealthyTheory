@@ -1,1 +1,1 @@
-
+The Healthy Theory is an Angular application which enables users to help connect with dietitians/nutritionists nearby to help them achieve their goals bringing them one step closer towards a healthy lifestyle.
