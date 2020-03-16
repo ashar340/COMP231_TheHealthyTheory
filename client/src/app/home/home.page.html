@@ -14,7 +14,7 @@
   </ion-header>
 
   <div class="searchBar">
-  <ion-searchbar value="Top Dieticians...."></ion-searchbar>
+  <ion-searchbar placeholder="Top Dieticians...."></ion-searchbar>
 
   <ion-icon size="large" name="navigate"></ion-icon>
   <ion-text class="coords"> {{address.subLocality ? address.subLocality +', ' : ''}}
@@ -27,25 +27,35 @@
 
   <!-- <ion-button (click)="locate()">Locate me (Test)</ion-button> -->
   <ion-grid class = "topRecommendations">
-    
     <ion-row class = "recommendationsRow">
       <ion-col>
-        ion-col
+        <ion-card>
+          <h1 orange>27</h1>
+          <p>A homolar</p>
+        </ion-card>
       </ion-col>
       <ion-col>
-        ion-col
+        <ion-card>
+          <h1 grey>10</h1>
+          <p>Encerradas</p>
+        </ion-card>
       </ion-col>
     </ion-row>
 
     <ion-row class = "recommendationsRow">
       <ion-col>
-        ion-col
+        <ion-card>
+          <h1 grey>10</h1>
+          <p>Encerradas</p>
+        </ion-card>
       </ion-col>
       <ion-col>
-        ion-col
+        <ion-card>
+          <h1 grey>10</h1>
+          <p>Encerradas</p>
+        </ion-card>
       </ion-col>
     </ion-row>
-
-  </ion-grid>
+ </ion-grid>
   
 </ion-content>

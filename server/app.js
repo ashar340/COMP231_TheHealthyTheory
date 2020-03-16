@@ -7,16 +7,18 @@ var logger = require('morgan');
 var express = require('express');
 var app = express();
 
-app.use((req, res, next) => {
+
+/* app.use((req, res, next) => {
     res.status(200).json({
         message: 'Server works!'
     });
-});
+}); */
 
-module.exports= app;
+
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var connectDB = require('./config/db');
+//var connectDB = require('./config/db');
 
 module.exports = app;
