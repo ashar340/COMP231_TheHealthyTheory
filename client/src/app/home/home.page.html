@@ -17,13 +17,14 @@
   <ion-searchbar placeholder="Top Dieticians...."></ion-searchbar>
 
   <ion-icon size="large" name="navigate"></ion-icon>
-  <ion-text class="coords"> {{address.subLocality ? address.subLocality +', ' : ''}}
+  </div>
+  <!-- <ion-text class="coords"> {{address.subLocality ? address.subLocality +', ' : ''}}
     {{address.locality ? address.locality +', ' : ''}}{{address.administrativeArea ? address.administrativeArea +', ' : ''}}
     {{address.postalCode ? address.postalCode +', ' : ''}}
   </ion-text>
 
   <ion-button (click)="reverseGeocode()" expand="full">Get My Address</ion-button>
-  </div>
+  </div> -->
 
   <!-- <ion-button (click)="locate()">Locate me (Test)</ion-button> -->
   <ion-grid class = "topRecommendations">
@@ -58,4 +59,6 @@
     </ion-row>
  </ion-grid>
   
+ <p>Data will be presented here...</p>
+<p>{{ dietician.id}}</p>
 </ion-content>

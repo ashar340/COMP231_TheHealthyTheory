@@ -1,8 +1,0 @@
-{
-  "appId": "com.comp231.thehealthytheory",
-  "appName": "TheHealthyTheory",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "cordova": {}
-}
