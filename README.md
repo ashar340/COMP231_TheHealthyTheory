@@ -1,3 +1,6 @@
+# REST APIs documentation can be found here:
+https://github.com/lzhao70/lzhao70-NutritionistAPI
+
 # Ionic Angular App
 The Healthy Theory is an Angular application which enables users to help connect with dietitians/nutritionists nearby to help them achieve their goals bringing them one step closer towards a healthy lifestyle.
 
